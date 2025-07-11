@@ -1,0 +1,173 @@
+.package-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+    height: 95%;
+}
+
+.package-container {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+    margin-top: 50px;
+    overflow: hidden;
+    background: white;
+    
+
+}
+
+.package-btn {
+    width: 400px;
+    padding: 0; /* Ubah dari 20px ke 0 */
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+    overflow: hidden; /* Tambahkan ini */
+    background: white; /* Background putih untuk card */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Shadow halus */
+}
+.package-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.178);
+}
+.starter {
+    background-color: #d4edda;
+    border: 2px solid #28a745;
+}
+.exclusive {
+    background-color: #d1ecf1;
+    border: 2px solid #17a2b8;
+}
+.premium {
+    background-color: #fff3cd;
+    border: 2px solid #ffc107;
+}
+
+.pricing-card {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+    overflow: hidden;
+    background: white;
+    width: 100%;
+
+}
+
+.pricing-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-header {
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+}
+
+.pricing-header.starter {
+
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+}
+
+.pricing-header.premium {
+    background: linear-gradient(135deg, #f12711 0%, #f5af19 100%);
+}
+
+.pricing-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pricing-price {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.pricing-period {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.pricing-features {
+    padding: 30px;
+    flex: 1;
+    
+}
+
+.pricing-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-features li {
+    padding: 8px 0;
+    position: relative;
+    padding-left: 10px;
+}
+
+.pricing-features li:before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: #28a745;
+}
+
+.pricing-timeline {
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.pricing-btn {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.pricing-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.section-title {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.section-title:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+.section-title {
+    text-align: center; /* Memposisikan teks di tengah */
+    margin: 40px 0; /* Memberikan jarak atas dan bawah */
+    width: 100%; /* Memastikan lebar penuh */
+    position: relative; /* Untuk pseudo-element jika diperlukan */
+}

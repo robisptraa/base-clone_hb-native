@@ -1,0 +1,21 @@
+[19-Jun-2025 10:53:59 Europe/Berlin] Login error: Konfigurasi database tidak ditemukan
+[19-Jun-2025 10:58:50 Europe/Berlin] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\HBN-Project\login.php on line 48
+[19-Jun-2025 10:58:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\HBN-Project\login.php:48
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\HBN-Project\login.php on line 48
+[19-Jun-2025 11:03:31 Europe/Berlin] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\HBN-Project\login.php on line 48
+[19-Jun-2025 11:03:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\HBN-Project\login.php:48
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\HBN-Project\login.php on line 48
+[19-Jun-2025 11:06:21 Europe/Berlin] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\HBN-Project\login.php on line 46
+[19-Jun-2025 11:06:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\HBN-Project\login.php:46
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\HBN-Project\login.php on line 46
+[19-Jun-2025 12:43:52 Europe/Berlin] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\HBN-Project\login.php on line 48
+[19-Jun-2025 12:43:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\HBN-Project\login.php:48
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\HBN-Project\login.php on line 48

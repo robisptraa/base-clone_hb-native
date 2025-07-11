@@ -1,0 +1,349 @@
+  <div style="display:none"> Container untuk menyembunyikan konten overlay
+
+  <!-- Paket Starter -->
+<div class="overlay-content" data-paket="starter">
+  <!-- Header -->
+  <div class="header">
+    <div class="header-content">
+      <p class="title">Penawaran Kerja</p>
+      <p class="order-id">Order ID: 2FDFKAM2</p>
+    </div>
+      <div style="height: 100px; background: linear-gradient(white, lightgray)"></div>
+    <button id="btnCloseOverlay" class="close-btn">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+
+  <!-- Progress bar -->
+  <div class="progress-steps">  
+    <div class="step active">
+      <div class="step-indicator"></div>
+      <div class="step-label">Deskripsi</div>
+    </div>
+    <div class="step active">
+      <div class="step-indicator"></div>
+      <div class="step-label">Pembayaran bertahap</div>
+    </div>
+    <div class="step">
+      <div class="step-indicator"></div>
+      <div class="step-label">Tinjauan</div>
+    </div>
+    <div class="step">
+      <div class="step-indicator"></div>
+      <div class="step-label">Terkirim</div>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <p class="section-title">Jumlah interval pembayaran bertahap</p>
+    <p class="section-subtitle">Minimal 2 interval dan bisa dibagi hingga 5 interval</p>
+
+    <!-- Number input with minus and plus -->
+    <div class="interval-selector">
+      <button id="decreaseBtn" class="interval-btn">
+        <i class="fas fa-minus"></i>
+      </button>
+      <input
+        id="intervalInput"
+        type="number"
+        min="2"
+        max="5"
+        value="2"
+        class="interval-input"
+      />
+      <button id="increaseBtn" class="interval-btn">
+        <i class="fas fa-plus"></i>
+      </button>
+    </div>
+
+    <!-- Info box -->
+    <div class="info-box">
+      <p>
+        Mengurangi jumlah interval setelah informasi ditentukan akan menyebabkan informasi dalam interval yang dipilih akan dihapus.
+      </p>
+      <p>
+        Sebagai contoh, sebelumnya telah ditentukan pembayaran bertahap dengan jumlah 4 interval, kemudian dikurangi menjadi 2 interval, data untuk interval ke-3 dan ke-4 akan dihapus.
+      </p>
+    </div>
+
+    <!-- Form box -->
+    <form class="payment-form">
+      <p class="form-title">Jumlah cicilan ronde 1</p>
+
+      <div class="form-group">
+        <label for="totalPayment">Total Pembayaran</label>
+        <input
+          id="totalPayment"
+          type="text"
+          placeholder="RP"
+        />
+      </div>
+
+      <div class="date-group">
+        <div class="date-input">
+          <label for="startDate">Tanggal Mulai</label>
+          <input
+            id="startDate"
+            type="date"
+            placeholder="Pilih tanggal mulai"
+          />
+        </div>
+        <div class="date-input">
+          <label for="endDate">Tanggal Pengiriman</label>
+          <input
+            id="endDate"
+            type="date"
+            placeholder="Pilih tanggal selesai"
+          />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="workResult">Pengiriman Hasil Kerja</label>
+        <textarea
+          id="workResult"
+          rows="3"
+          placeholder="Jelaskan secara detil yang akan diberikan pada Pembeli Kerja di setiap interval"
+        ></textarea>
+      </div>
+    </form>
+  </div>
+
+  <div class="action-buttons">
+    <button id="btnCloseOverlay" class="secondary-btn">
+      <i class="fas fa-times"></i> Tutup
+    </button>
+    <button class="primary-btn">Simpan</button>
+  </div>
+</div>
+
+
+  <!-- Paket Exclusive -->
+  <div class="overlay-content" data-paket="exclusive">
+    <!-- Header -->
+    <div class="header">
+      <div class="header-content">
+        <p class="title">Penawaran Kerja - Exclusive</p>
+        <p class="order-id">Order ID: EX-2FDFKAM2</p>
+      </div>
+      <div style="height: 100px; background: linear-gradient(white, lightgray)"></div>
+      <button id="btnCloseOverlay" class="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+ <!-- Progress bar -->
+  <div class="progress-steps">
+    <div class="step active">
+      <div class="step-indicator"></div>
+      <div class="step-label">Deskripsi</div>
+    </div>
+    <div class="step active">
+      <div class="step-indicator"></div>
+      <div class="step-label">Pembayaran bertahap</div>
+    </div>
+    <div class="step">
+      <div class="step-indicator"></div>
+      <div class="step-label">Tinjauan</div>
+    </div>
+    <div class="step">
+      <div class="step-indicator"></div>
+      <div class="step-label">Terkirim</div>
+    </div>
+  </div>
+
+    <!-- Content -->
+    <div class="content">
+      <p class="section-title">Jumlah interval pembayaran bertahap</p>
+      <p class="section-subtitle">Minimal 2 interval dan bisa dibagi hingga 5 interval</p>
+
+      <!-- Number input with minus and plus -->
+      <div class="interval-selector">
+       <button id="decreaseBtn" class="interval-btn">
+          <i class="fas fa-minus"></i>
+        </button>
+        <input
+          class="interval-input"
+          type="number"
+          min="2"
+          max="5"
+          value="2"
+        />
+        <button class="interval-btn increaseBtn">
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
+
+      <!-- Info box -->
+      <div class="info-box">
+        <p>Paket Exclusive mencakup layanan premium dengan timeline 4 minggu.</p>
+        <p>Total biaya: <strong>Rp 1.500.000</strong></p>
+      </div>
+
+      <!-- Form box -->
+    <form class="payment-form">
+      <p class="form-title">Jumlah cicilan ronde 1</p>
+
+      <div class="form-group">
+        <label for="totalPayment">Total Pembayaran</label>
+        <input
+          id="totalPayment"
+          type="text"
+          placeholder="RP"
+        />
+      </div>
+
+      <div class="date-group">
+        <div class="date-input">
+          <label for="startDate">Tanggal Mulai</label>
+          <input
+            id="startDate"
+            type="date"
+            placeholder="Pilih tanggal mulai"
+          />
+        </div>
+        <div class="date-input">
+          <label for="endDate">Tanggal Pengiriman</label>
+          <input
+            id="endDate"
+            type="date"
+            placeholder="Pilih tanggal selesai"
+          />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="workResult">Pengiriman Hasil Kerja</label>
+        <textarea
+          id="workResult"
+          rows="3"
+          placeholder="Jelaskan secara detil yang akan diberikan pada Pembeli Kerja di setiap interval"
+        ></textarea>
+      </div>
+    </form>
+  </div>
+
+  <div class="action-buttons">
+    <button id="btnCloseOverlay" class="secondary-btn">
+      <i class="fas fa-times"></i> Tutup
+    </button>
+    <button class="primary-btn">Simpan</button>
+    </div>
+  </div>
+
+
+      <!-- Paket Premium -->
+  <div class="overlay-content" data-paket="premium">
+    <!-- Header -->
+    <div class="header">
+      <div class="header-content">
+        <p class="title">Penawaran Kerja - Premium</p>
+        <p class="order-id">Order ID: PM-2FDFKAM2</p>
+      </div>
+      <div style="height: 100px; background: linear-gradient(white, lightgray)"></div>
+   <button id="btnCloseOverlay" class="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+  <!-- Progress bar -->
+  <div class="progress-steps">
+    <div class="step active">
+      <div class="step-indicator"></div>
+      <div class="step-label">Deskripsi</div>
+    </div>
+    <div class="step active">
+      <div class="step-indicator"></div>
+      <div class="step-label">Pembayaran bertahap</div>
+    </div>
+    <div class="step">
+      <div class="step-indicator"></div>
+      <div class="step-label">Tinjauan</div>
+    </div>
+    <div class="step">
+      <div class="step-indicator"></div>
+      <div class="step-label">Terkirim</div>
+    </div>
+  </div>
+
+    <!-- Content -->
+    <div class="content">
+      <p class="section-title">Jumlah interval pembayaran bertahap</p>
+      <p class="section-subtitle">Minimal 2 interval dan bisa dibagi hingga 5 interval</p>
+
+      <!-- Number input with minus and plus -->
+      <div class="interval-selector">
+        <button class="interval-btn decreaseBtn">
+          <i class="fas fa-minus"></i>
+        </button>
+        <input
+          class="interval-input"
+          type="number"
+          min="2"
+          max="5"
+          value="2"
+        />
+        <button class="interval-btn increaseBtn">
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
+
+      <!-- Info box -->
+      <div class="info-box">
+        <p>Paket Premium mencakup layanan lengkap dengan timeline 12 minggu.</p>
+        <p>Total biaya: <strong>Rp 3.000.000</strong></p>
+      </div>
+
+      <!-- Form box -->
+      <form class="payment-form">
+    <p class="form-title">Jumlah cicilan ronde 1</p>
+
+      <div class="form-group">
+        <label for="totalPayment">Total Pembayaran</label>
+        <input
+          id="totalPayment"
+          type="text"
+          placeholder="RP"
+        />
+    </div>
+
+      <div class="date-group">
+        <div class="date-input">
+          <label for="startDate">Tanggal Mulai</label>
+          <input
+            id="startDate"
+            type="date"
+            placeholder="Pilih tanggal mulai"
+          />
+        </div>
+        <div class="date-input">
+          <label for="endDate">Tanggal Pengiriman</label>
+          <input
+            id="endDate"
+            type="date"
+            placeholder="Pilih tanggal selesai"
+          />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="workResult">Pengiriman Hasil Kerja</label>
+        <textarea
+          id="workResult"
+          rows="3"
+          placeholder="Jelaskan secara detil yang akan diberikan pada Pembeli Kerja di setiap interval"
+        ></textarea>
+      </div>
+    </form>
+  </div>
+
+
+    <div class="action-buttons">
+    <button id="btnCloseOverlay" class="secondary-btn">
+      <i class="fas fa-times"></i> Tutup
+    </button>
+    <button class="primary-btn">Simpan</button>
+    </div>
+  </div>
+</div>
